@@ -1,0 +1,224 @@
+* {font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+    Helvetica, Arial, "Lucida Grande", sans-serif; }
+
+body {background-color: #F8F9FA;}    
+    /*  */
+.top {text-align: center;width: 60%; margin: auto; margin-top: 100px;}
+.top > h1 {font-weight: 900;font-size: 3rem;}
+.top > p {font-size: 1.8rem; margin: 40px auto;}
+.top > img {
+    border-radius:15px 15px 0px 0px;
+    height:250px;
+}
+/*  */
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+    gap: 50px;
+}
+.about > hr {grid-column: 1/-1;}
+.about > .info > h2 {
+    font-weight: 800;
+    font-size: 2rem;
+}
+.info > p {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+.info > a > button {
+    margin-top: 5px;
+    width: 200px;
+}
+.about > img {
+    height: 400px;
+    width: 400px;
+}
+
+#email {font-size:1rem}
+/*  */
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+#carouselExampleCaptions,#hanging-icons {width: 60%;
+    margin: auto;}
+
+#title_for_projects{text-align: center;}    
+/*  */
+#title_for_projects {text-align: center; font-size: 2.2rem;margin: 50px;font-weight: 700;}
+/*  */
+.projects{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    margin:auto;
+    width:60%;
+    margin-bottom: 50px;
+}
+
+.python,.web {
+    display:grid;
+    grid-template-columns: 1fr 4fr;
+}
+.python_right > h3 {
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+.web_right > h3 {
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+.python_right,.web_right > p {
+    font-size: 1.2rem;
+}
+/*  */
+#web_icon{background-color: aqua;width: 60px;height: 60px;padding: 12px;border-radius: 12px;}
+#web_button{background-color: aqua;color: black;}
+#web_button:hover{background-color: blueviolet;color: white;}
+/*  */
+#python_icon{background-color: blueviolet;width: 60px;height: 60px;padding: 12px;border-radius: 12px;}
+#python_button{background-color: blueviolet;color: white;}
+#python_button:hover{background-color: aqua;color: black;}
+.projects_zone {display: flex;flex-wrap: wrap;flex-direction: row;gap:50px;width: 90%;margin: auto;}
+/*  */
+.project_title{
+    text-align: center;
+    width: 60%;
+    margin: 100px auto;
+}
+.project_title > h1{font-weight: 800;font-size: 3rem;}
+.project_title > p {font-size: 1.3rem;margin: 30px auto 60px auto;}
+/*  */
+.project{width: 400px;border: 1px solid black; margin-top: 10px;border-radius: 10px 10px 0px 0px; background-color: #FFFF;}
+.project > img {width: 398px;height: 250px;border-radius: 10px 10px 0px 0px; border-bottom: 1px solid black;}
+.below_image{margin: 10px 10px;}
+.below_image > h3 { font-size: 1.4rem;font-weight: 700;}
+.below_image > p { font-size: 1.1rem; }
+/*  */
+.button_group {display: flex;justify-content: space-between;align-items: center;}
+.link {font-size: 0.8rem; height: 30px;}
+
+footer {width: 90%; margin:100px auto 0px auto; color: #6C757D;font-size: 1rem;}
+.bottom_footer {display: flex;justify-content: space-between; }
+
+.svg_link {color: #6C757D;}
+.svg_link > svg {width: 30px;height: 30px;}
+/* #F8F9FA */
+nav{width: 90%;margin: auto;}
+.top_part_nav {display: flex;justify-content:center;}
+.top_part_nav > a {margin: 20px 20px 0px;color: #000;text-decoration: none;}
+#python_link:hover{color: blueviolet;}
+#web_link:hover{color: rgb(6, 219, 219);}
+#home_link:hover{color:gray}
+/*  */
+.full_stack, .backend, .frontend {width:90%;margin:auto; margin-top: 50px;}
+.web_title {font-weight: 800;}
+.project_zone {display: flex;flex-wrap: wrap;flex-direction: row;gap:50px;}
+.describe {font-weight: 400;font-size: 1.2rem;color: #6C757D;font-style: italic;}
+/*  */
+@media (min-width: 481px) and (max-width: 768px) { 
+    .top {text-align: center;width: 90%; margin: auto; margin-top: 80px;}
+    .top > h1 {font-weight: 900;font-size: 2.5rem;}
+    .top > p {font-size: 1.4rem; margin: 40px auto;}
+    .top > img {
+        border-radius:15px 15px 0px 0px;
+        height:200px;
+    }
+    /*  */
+    .about {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 80%;
+        margin: auto;
+        margin-top: 80px;
+        gap: 40px;
+    }
+    .about > hr {grid-column: 1/-1;}
+    .about > .info > h2 {
+        font-weight: 800;
+        font-size: 2rem;
+    }
+    .info > p {
+        margin-top: 20px;
+        font-size: 1.2rem;
+    }
+    /*  */
+    .projects{
+        display:grid;
+        grid-template-columns:1fr;
+        gap:40px;
+        margin:auto;
+        width:90%;
+        margin-bottom: 50px;
+    }
+    /*  */
+    
+.project_title{
+    text-align: center;
+    width: 80%;
+    margin: 100px auto;
+}
+.project_title > h1{font-weight: 800;font-size: 3rem;}
+.project_title > p {font-size: 1.3rem;margin: 30px auto 60px auto;}
+/*  */
+.project{width: 400px;border: 1px solid black; margin-top: 10px;border-radius: 10px 10px 0px 0px; background-color: #FFFF;margin: auto;}
+.project > img {width: 398px;height: 250px;border-radius: 10px 10px 0px 0px; border-bottom: 1px solid black;}
+}
+@media (max-width: 480px) {
+    .top {text-align: center;width: 80%; margin: auto; margin-top: 50px;}
+    .top > h1 {font-weight: 900;font-size: 1.7rem;}
+    .top > p {font-size: 1.2rem; margin: 40px auto;}
+    .top > img {
+        border-radius:15px 15px 0px 0px;
+        height:150px;
+    }
+/*  */
+.about {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    gap: 40px;
+}
+.about > hr {grid-column: 1/-1;}
+.about > .info > h2 {
+    font-weight: 800;
+    font-size: 1.7rem;
+}
+.info > p {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+.about > img {
+    height: 300px;
+    width: 300px;
+}
+/*  */
+.projects{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:30px;
+    margin:auto;
+    width:90%;
+    margin-bottom: 50px;
+}
+.project_title{
+    text-align: center;
+    width: 80%;
+    margin: 50px auto;
+}
+.project_title > h1{font-weight: 800;font-size: 2rem;}
+.project_title > p {font-size: 1rem;margin: 30px auto 60px auto;}
+.project{width: 300px;border: 1px solid black; margin-top: 10px;border-radius: 10px 10px 0px 0px; background-color: #FFFF;margin: auto;}
+.project > img {width: 298px;height: 250px;border-radius: 10px 10px 0px 0px; border-bottom: 1px solid black;}
+.top_part_nav >a {font-size: 0.8rem;}
+#title_for_projects{font-size: 1.7rem;}
+.web_right > h3 {font-size: 1.6rem;}
+}
+
+
